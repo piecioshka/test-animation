@@ -1,0 +1,44 @@
+#page {
+    position: relative;
+}
+
+#square {
+    width: 200px;
+    height: 200px;
+    background: lightcyan;
+
+    position: absolute;
+    left: 0px;
+    top: 10px;
+
+    /* Achtung! */
+    /* will-change: left; */
+}
+
+#square.animate-keyframes {
+    animation: movePosition 3s linear;
+}
+
+#square.animate-transforms {
+    animation: moveTransform 3s linear;
+}
+
+@keyframes movePosition {
+    0% {
+        left: 0px;
+    }
+
+    100% {
+        left: 100px;
+    }
+}
+
+@keyframes moveTransform {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(100px);
+    }
+}
