@@ -2,7 +2,7 @@
 
 :ledger: Testing making animation in 4 ways
 
-## Demo 🎉
+## Preview 🎉
 
 <https://piecioshka.github.io/test-animation/src/>
 
